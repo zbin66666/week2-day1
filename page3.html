@@ -1,0 +1,65 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>My Third Web Page.</title>
+
+    </head>
+    <body>
+        <div id="container">
+            <header></header> <!--This for heading-->
+            <!--Main navigation-->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="page2.html">About</a></li>
+                    <li>Gallery</li>
+                    <li><a href="page3.html">Contact</a></li>
+                </ul>
+            </nav> 
+            <!-- End of Main Navigation-->
+
+            <!--Main Content-->
+            <main> 
+                <h1> My Third Heading.</h1>
+                <p>My Third Paragraph.</p>
+                <img src="images/central_park.jpg" alt="Central Park" width="500">
+                
+                <form action="/signup" method="post">
+                    <fieldset>
+                        <legend>User personal information</legend>
+
+                        <label>Enter your full name</label><br>
+                        <input type="text"> <br>
+
+                        <label>Enter your Email</label><br>
+                        <input type="text" name="email"><br>
+
+                        <label>Enter your phone</label><br>
+                        <input type="text" name="phone"><br><br>
+
+                        <label>Enter your gender</label><br>
+                        <input type="radio" name="gender" value="male">Male
+                        <input type="radio" name="gender" value="female">Female<br>
+
+                        <label>How should we contact you?</label><br>
+                        <select>
+                            <option>Email</option>
+                            <option>Phone</option>
+                        </select><br><br>
+                        Tell us the reason of your visit today:<br>
+                        <textarea row="5" cols="30"></textarea>
+                        <input type="submit" value="sign-up">
+            
+                    </fieldset>
+                
+
+                </form>
+            </main>
+            <!--End of main section-->
+
+            <!--Footer Information-->
+            <footer>&copy; Copyright 2023 B</footer>   <!--This is for footer -->
+        </div>
+        <!--End of Container -->
+    </body>
+</html>
