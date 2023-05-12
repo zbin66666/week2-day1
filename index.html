@@ -11,14 +11,44 @@
                 /*background-position:0 -200px*/
                 /*background-repeat:no-repeat;*/
                 height:400px; /* give header some height to display the background image*/
+                padding-top:100px;
+                padding-left:100px;
             }
-
+            li{ 
+                list-style-type:none;
+                display: inline;
+                padding: 0 20px; /* paadding: 0 on the top&bottom 20px on the left and right*/
+            }
+            li a{
+                text-decoration: none;
+            }
+            li a:link{
+                color:#000;
+            }
+            li a:visited{
+                color:#818db3;
+            }
+            li a:hover{
+                color:#333;
+                text-decoration: underline;
+            }
+            li a:active{
+                color:#753a30;
+            }
+            nav{
+                background-color:rgb(255,245,238);
+                height:50px;
+                text-align: center;
+                padding-top: 20px;
+                margin-top: 10px; 
+                /* the difference of the margin and padding is outside of text box and inside of the text box for the later one*/
+            }
         </style>
 
     </head>
     <body>
         <div id="container">
-            <header></header> <!--This for heading-->
+            <header style="font-size:60px; color:#fff">My Web site Brand</header> <!--This for heading-->
             <!--Main navigation-->
             <nav>
                 <ul>
@@ -34,7 +64,7 @@
             <main> 
                 <h1> My First Heading.</h1>
                 <p>My First Paragraph.</p>
-                
+
                 
             </main>
             <!--End of main section-->
